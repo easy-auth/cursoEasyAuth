@@ -1,0 +1,14 @@
+{
+    "presets": [
+        "@babel/env",
+        ['minify',
+            {
+            builtIns: false,
+            }
+        ]
+    ],
+    "plugins": [
+        "@babel/proposal-class-properties",
+        "@babel/plugin-transform-runtime"
+    ]
+}
